@@ -27,7 +27,9 @@ function startClock() {
 
 function stop(){
     clearTimeout(clockTimer);
+    document.getElementById('stopbtn').classList.add('stoped');
 }
 function play(){
     startClock();
+    document.getElementById('stopbtn').classList.remove('stoped');
 }
