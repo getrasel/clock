@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock Timer</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body onload="startClock()">
+    
+    <div class="clockParent">
+        <div class="timeinside">
+            <p id="hour"></p>
+            <p id="minute"></p>
+            <p id="sec"></p>
+        </div>
+        <div class="buttonparent">
+            <button class="btn" id="stopbtn" onclick="stop()">Stop Time</button>
+            <button class="btn" id="playbtn" onclick="play()">Play Time</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
