@@ -39,7 +39,7 @@ body{
     cursor: pointer;
     color: #fff;
 }
-.buttonparent button.stoped{
+.buttonparent button.stoped, .buttonparent button.remove{
     opacity: 0.5;
     cursor: no-drop;
 }
