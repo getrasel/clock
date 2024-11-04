@@ -26,12 +26,12 @@ function startClock() {
 
 
 function stop(){
-    clearTimeout(clockTimer);
     document.getElementById('stopbtn').classList.add('stoped');
     document.getElementById('playbtn').classList.remove('remove');
+    clearTimeout(clockTimer);
 }
 function play(){
-    startClock();
     document.getElementById('stopbtn').classList.remove('stoped');
     document.getElementById('playbtn').classList.add('remove');
+    startClock();
 }
